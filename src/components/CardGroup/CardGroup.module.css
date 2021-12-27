@@ -1,0 +1,51 @@
+.activity-card {
+    display: flex;
+    flex-direction: column;
+    height: 234px;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 22px 27px;
+    margin-bottom: 26px;
+    position: relative;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.activity-item-delete-button {
+    cursor: pointer;
+}
+
+.activity-item-delete-button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+    border-radius: 100%;
+}
+
+.activity-item-title {
+    color: #111111;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    max-height: 137px;
+    overflow: hidden;
+}
+
+.activity-item-date {
+    color: #888888;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-link {
+    flex: 1 1;
+    text-decoration: none !important;
+}

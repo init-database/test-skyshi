@@ -1,0 +1,15 @@
+.activity-empty-state {
+    width: 767px;
+    height: 490px;
+}
+
+.container-group {
+    flex: 1 1;
+}
+
+.spinner-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

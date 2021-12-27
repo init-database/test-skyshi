@@ -1,0 +1,15 @@
+.toast {
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.toast-body {
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}

@@ -1,0 +1,46 @@
+.todo-header {
+    margin: 43px 0 55px;
+}
+
+.activity-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.action-title-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.back-link {
+    margin-right: 40px;
+}
+
+.edit-button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+    margin-left: 40px;
+    border-radius: 100%;
+}
+
+.update-group-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #999;
+    outline: none;
+    width: 100%;
+}

@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    background-color: #f4f4f4 !important;
+    overflow-x: hidden;
+    font-family: "Poppins", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn.btn-primary {
+    background-color: #16abf8 !important;
+}
+
+.btn.btn-danger {
+    background-color: #ed4c5c !important;
+}
+
+.btn.btn-default {
+    background-color: #f4f4f4 !important;
+}
+
+.modal-content {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 12px !important;
+}
+
+.modal-body {
+    text-align: center !important;
+    padding: 2.5rem !important;
+}

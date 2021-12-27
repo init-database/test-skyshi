@@ -1,0 +1,45 @@
+.button-sort {
+    width: 54px;
+    height: 54px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+    border-radius: 45px;
+    background-color: transparent;
+    margin-right: 18px;
+}
+
+.button-sort::after {
+    display: none;
+}
+
+.menu-list {
+    padding: 0;
+    width: 235px;
+    border: none;
+    box-shadow: 8px 8px 8px 0 rgba(0, 0, 0, .2);
+}
+
+.label-sort {
+    margin-left: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #4A4A4A;
+    margin-right: auto;
+}
+
+.sort-mode-item {
+    padding: 14px 21px !important;
+    display: flex;
+    align-items: center;
+}
+
+.sort-mode-item:active>.label-sort {
+    color: #fff !important;
+}
+
+.no-margin {
+    margin: 0 !important;
+}

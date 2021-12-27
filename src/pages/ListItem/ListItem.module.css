@@ -1,0 +1,10 @@
+.container-todo {
+    flex: 1 1;
+}
+
+.spinner-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
